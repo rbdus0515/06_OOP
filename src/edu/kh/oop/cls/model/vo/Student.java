@@ -35,6 +35,31 @@ public class Student { // 클래스 선언부
 		System.out.println(v4);
 	}
 	
+	//---------------------------------------------------
+	
+	public static String schoolName = "KH고등학교";
+	
+	private String name; // 캡슐화 원칙 -> 간접 접근 방법 필요
+	
+	{ // 초기화 블록 : 객체 생성시 필드 값 초기화
+		name = "김길동";
+	}
+
+	// getter/setter
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 	// 2. 생성자(constructor)
@@ -42,3 +67,19 @@ public class Student { // 클래스 선언부
 	// 3. 매서드(method)
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
