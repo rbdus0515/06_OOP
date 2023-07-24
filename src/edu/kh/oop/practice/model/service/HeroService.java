@@ -43,11 +43,11 @@ public class HeroService {
 		System.out.println();
 		System.out.println();
 		
-		h2.attack();
+		h2.attack(); // Hero 클래스에서 attack메서드 가져오기
 		System.out.println();
 		
 		h1.setJob("워리어");
-		h1.setHp(h1.getHp() - 150);
+		h1.setHp(h1.getHp() - 150); // 감소된 값 그냥 입력하지 말고 위 결과값 받아서 계산식 만들기
 		h1.setMp(5000);
 		h1.setGender('남');
 		h1.setLevel(5);
@@ -81,6 +81,6 @@ public class HeroService {
 		System.out.println();
 		System.out.println();
 		
-		h3.jump();
+		h3.jump(); // Hero 클래스에서 jump메서드 가져오기
 	}
 }
