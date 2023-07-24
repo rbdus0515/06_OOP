@@ -2,6 +2,7 @@ package ede.kh.oop.cls.model.service;
 
 import edu.kh.oop.cls.model.vo.Student;
 // import edu.kh.oop.cls.model.vo.Student;
+import edu.kh.oop.cls.model.vo.User;
 
 public class ClsService /*extends Student*/{
 						// 부모인 Student를 상속받음
@@ -34,6 +35,7 @@ public class ClsService /*extends Student*/{
 	}
 	
 	public void ex2() {
+
 		
 		// static 필드 확인 예제
 		
@@ -70,4 +72,42 @@ public class ClsService /*extends Student*/{
 		
 		
 	}
+	
+	public void ex3() {
+		
+		// 생성자 확인 테스트
+		
+		// Student 객체를 기본 생성자를 이용해 생성하고 이를 참조하는 참조변수 s1에 대입
+		
+		Student s1 = new Student();
+						// 기본 생성자
+		
+		
+		// User 기본 생성자를 이용해서 객체 생성
+		User u1 = new User();
+		
+		
+		// User 객체 필드 초기화 확인
+		System.out.println(u1.getUserId());
+		System.out.println(u1.getUserPw());
+		System.out.println(u1.getUserName());
+		System.out.println(u1.getUserAge());
+		System.out.println(u1.getUserGender());
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
 }
+
+
+
+
+
+
+
