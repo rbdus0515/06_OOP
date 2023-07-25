@@ -16,8 +16,9 @@ public class ClsRun {
 		// 자동으로 기본 생성자를 추가해줌 (우리 눈엔 안보임)
 		
 		
-		//service.ex2();
-		service.ex3();
+		// service.ex2();
+		// service.ex3();
+		service.ex4();
 	}
 
 }
