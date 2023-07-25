@@ -4,7 +4,7 @@ import edu.kh.method.model.service.MemberService;
 
 public class MemberRun {
 
-	public     static   void   ain(String[] args) {
+	public     static   void   main(String[] args) {
 //[접근제한자][예약어][반환형]메서드명([매개변수])
 		// -> 대괄호 안에 있는건 생략 가능
 		
@@ -20,6 +20,7 @@ public class MemberRun {
 		// 만약에 생성자가 하나라도 있으면 자동생성 안해줌!
 		
 		service.displayMenu(); // 메서드를 호출했다!
+		
 		
 	}
 
