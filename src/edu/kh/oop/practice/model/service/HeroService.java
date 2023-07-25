@@ -1,6 +1,7 @@
 package edu.kh.oop.practice.model.service;
 
-import edu.kh.oop.practice.model.vo.Hero;
+import edu.kh.oop.practice.model.vo.Hero; // ctrl + shift + O = 자동 import
+										  // 쓰지 않는 import 삭제
 
 public class HeroService {
 
