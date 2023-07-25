@@ -7,7 +7,7 @@ public class Book {
 	private double discountRate; // 도서명
 	private String author; // 도서명
 
-	public void Book() {
+	public Book() {
 		
 	}
 	
@@ -16,7 +16,7 @@ public class Book {
 	}
 	
 	public String toString() {
-		return title + price + discountRate + author ;
+		return "" ;
 		
 	}
 
