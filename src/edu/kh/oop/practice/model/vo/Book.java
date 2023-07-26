@@ -16,7 +16,7 @@ public class Book {
 	}
 	
 	public String toString() {
-		return "" ;
+		return title + " / " + price + " / " + discountRate + " / " + author;
 		
 	}
 

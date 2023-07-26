@@ -13,7 +13,7 @@ public class Snack {
 	public Snack(String kind, String name, String flavor, int numOf, int price) {}
 	
 	public String information() {
-		return "";
+		return kind + "(" + name + "-" + flavor + ")" + numOf + "개" + price + "원";
 	}
 
 	public String getKind() {

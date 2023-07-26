@@ -11,11 +11,14 @@ public class SnackController {
 	}
 	
 	public String saveData(String kind, String name, String flavor, int numOf, int price) {
-		return "";
+		return kind + name + flavor + numOf + price;
 	}
 	
 	public String confirmData() {
-		return "";
+		return saveData(null, null, null, 0, 0);
 	}
 
+	
+	
+	
 }
