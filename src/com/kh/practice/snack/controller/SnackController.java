@@ -15,7 +15,7 @@ public class SnackController {
 	}
 	
 	public String confirmData() {
-		return saveData(null, null, null, 0, 0);
+		return "";
 	}
 
 	
